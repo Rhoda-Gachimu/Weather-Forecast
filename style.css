@@ -12,8 +12,8 @@ body{
 .card{
     background-color:rgba(147, 201, 218, 0.952);
     width: 90%;
-    max-width: 470px;
-    margin: 100px auto ;
+    max-width: 350px;
+    margin: 100px auto 0;
     padding: 40px 35px;
     text-align: center;
     border-radius: 20px;
@@ -46,13 +46,63 @@ body{
     background-color:#ebfffc;
     border: 0;
     outline: 0;
-    border-radius:30px ;
-    width: 45px;
-    height: 45px;
+    border-radius:100px ;
+    width: 18px;
+    height: 18px;
     cursor: pointer;
  }
  
  .search button img{
-    width:15px ;
+    width:20px ;
  }
 
+ .weather-icon{
+   width: 150px;
+   margin-top: 20px;
+ }
+ .weather h1{
+   font-size: 50px;
+   font-weight: 500;
+ }
+
+ .weather h2{
+   font-size: 40px;
+   font-weight: 400;
+   margin-top:-10px ;
+ }
+.details{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.col1{
+   display: flex;
+   align-items: center;
+   text-align: left;
+}
+.col1 img{
+   width: 30px;
+   margin-right: 10px;
+}
+#hum{
+   display: grid;
+}
+
+.col2{
+   display: flex;
+   align-items: center;
+   text-align: left;
+}
+.col2 img{
+   width: 30px;
+   margin-right: 10px;
+}
+
+#wind{
+   display: grid;
+}
+.humidity, .wind{
+   font-size: 20px;
+   margin-top: -5px;
+}
