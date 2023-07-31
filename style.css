@@ -106,3 +106,14 @@ justify-content: space-between;
    font-size: 20px;
    margin-top: -5px;
 }
+.weather{
+   display:none ;
+}
+.error{
+   color: red;
+   font-size: 15px;
+   font-weight: bold;
+   margin-top: 15px;
+   text-align: left;
+   display:none ;
+}
